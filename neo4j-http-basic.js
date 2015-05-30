@@ -41,7 +41,12 @@ runCypherQuery(
 
 // To delete all nodes and relationships:
 
-// START n = node(*) 
-// OPTIONAL MATCH n-[r]-() 
-// WHERE (ID(n)>0 AND ID(n)<10000) 
+// START n = node(*)
+// OPTIONAL MATCH n-[r]-()
+// WHERE (ID(n)>0 AND ID(n)<10000)
 // DELETE n, r;
+
+
+// http://www.sitepoint.com/making-http-requests-in-node-js/
+// https://www.npmjs.com/package/request
+// https://github.com/TrevorBurnham/Jitter
